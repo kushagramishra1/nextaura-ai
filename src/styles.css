@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Newsreader", "Iowan Old Style", "Palatino Linotype", serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+
+  --color-bg: #0b0d0c;
+  --color-surface: #131615;
+  --color-elevated: #1a1e1c;
+  --color-fg: #e7ebe8;
+  --color-muted: #8f978f;
+  --color-subtle: #6b736c;
+  --color-brand: #8ec9b0;
+  --color-brand-fg: #0b0d0c;
+  --color-brand-dim: #1c322a;
+  --color-danger: #d07a72;
+  --color-warn: #c4a574;
+  --color-ok: #7dba9e;
+  --color-line: #2a302c;
+
+  --color-background: #0b0d0c;
+  --color-foreground: #e7ebe8;
+  --color-card: #131615;
+  --color-card-foreground: #e7ebe8;
+  --color-popover: #1a1e1c;
+  --color-popover-foreground: #e7ebe8;
+  --color-primary: #8ec9b0;
+  --color-primary-foreground: #0b0d0c;
+  --color-secondary: #1a1e1c;
+  --color-secondary-foreground: #e7ebe8;
+  --color-muted-foreground: #8f978f;
+  --color-accent: #1c322a;
+  --color-accent-foreground: #8ec9b0;
+  --color-destructive: #d07a72;
+  --color-destructive-foreground: #0b0d0c;
+  --color-border: #2a302c;
+  --color-input: #2a302c;
+  --color-ring: #8ec9b0;
+
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius: 12px;
+}
+
+@layer base {
+  html {
+    color-scheme: dark;
+  }
+
+  html,
+  body,
+  #app {
+    min-height: 100%;
+    background: var(--color-bg);
+    color: var(--color-fg);
+  }
+
+  body {
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  ::selection {
+    background: color-mix(in oklab, var(--color-brand) 35%, transparent);
+    color: var(--color-fg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

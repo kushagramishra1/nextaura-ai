@@ -1,0 +1,1 @@
+import{n as e,u as t}from"./utils-DE3IZn_Q.js";var n=t();function r({className:t,...r}){return(0,n.jsx)(`div`,{className:e(`animate-pulse rounded-md bg-elevated`,t),...r})}export{r as t};

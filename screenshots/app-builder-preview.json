@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Nexora",
+      "hasCanvas": false,
+      "bodyTextLen": 1737,
+      "bodyTextHash": "740c27d863d682102526f8b6b418701d8766695dc3a851d0d80a94795169e043",
+      "bodyTextPrefix": "Nexora Product API Security KNOWLEDGE OPERATIONS Company knowled",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Nexora",
+      "hasCanvas": false,
+      "bodyTextLen": 1651,
+      "bodyTextHash": "6bd2a1e0b6105729f806d7aef60040be4c8aa108136b2275b87c6d7569f884f5",
+      "bodyTextPrefix": "Nexora KNOWLEDGE OPERATIONS Company knowledge, finally answerabl",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
