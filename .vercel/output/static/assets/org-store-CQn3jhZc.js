@@ -1,1 +1,0 @@
-var e=`nexora.currentOrgId`;function t(){if(typeof window>`u`)return null;try{return window.localStorage.getItem(e)}catch{return null}}function n(t){if(!(typeof window>`u`))try{window.localStorage.setItem(e,t)}catch{}}export{n,t};
