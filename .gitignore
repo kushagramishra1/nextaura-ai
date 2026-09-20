@@ -3,3 +3,8 @@ node_modules/
 .env
 .env.*
 !.env.example
+
+# Local browser QA output and generated design assets
+screenshots/*
+!screenshots/.gitkeep
+artifacts/
